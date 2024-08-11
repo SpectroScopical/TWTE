@@ -1,0 +1,173 @@
+a {
+    text-decoration: none;
+    font-family: "Determination Mono";
+    color: yellow;
+    transition: 0.3s all;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-family: "Determination Mono";
+}
+
+
+.MainBG {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.815), rgb(0, 0, 0));
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.BGimg {
+    z-index: -2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px;
+    border: 5px solid red;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.MainBox {
+    margin: 10%;
+    border: 5px solid red;
+}
+
+.banner {
+    align-items: center;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+}
+
+.menu { 
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftbox {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border: 7px rgb(73, 0, 133) solid  ;
+    text-align: center;
+    position: relative;
+    transition: 0.3s all;
+}
+
+.bannerimg {
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.boximg {
+    width: 100%;
+    height: 100%;
+}
+
+.lefttext {
+    text-align: center;
+    font-size: 90%;
+}
+
+.textboxmenu {
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;
+    background-color: black;
+    padding: 4%;
+    border: 7px solid rgb(73, 0, 133);
+    transition: 0.3s all;
+}
+
+.textboxmenu:hover {
+    border: 7px yellow solid;
+    
+}
+
+.leftbox:hover {
+    border: 7px yellow solid;
+}
+
+.jjsoppbannertext {
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.homebutton {
+    transition: 0.3s all;
+    color: red; 
+    font-size: 30px; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+    margin-right: 3%;;
+}
+
+.homebutton:hover {
+    color: yellow;
+}
+
+.opppickertitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+.opppickerbox {
+    align-items: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.oppbox {
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 1%;
+    transition: 0.3s all;
+}
+
+.oppbox:hover {
+    border: 5px solid yellow;
+}
+
